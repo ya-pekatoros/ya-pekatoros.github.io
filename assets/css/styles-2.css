@@ -27,7 +27,7 @@ a {
   -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #1d423c;
 }
 a:focus {
@@ -164,7 +164,7 @@ img {
   color: #35776d;
   position: relative;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .main-wrapper .section-title .fa {
   width: 30px;
@@ -201,7 +201,7 @@ img {
 .main-wrapper .job-title {
   color: #3F4650;
   font-size: 16px;
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -221,11 +221,6 @@ img {
   color: #35776d;
   margin-top: 0;
   margin-bottom: 5px;
-}
-.main-wrapper .project-title a {
-    font-weight: 700;
-    color: #35776d;
-    text-decoration: underline;
 }
 .main-wrapper .project-tagline {
   color: #35776d;
