@@ -20,7 +20,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #35776d;
+  color: #2e4049;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -28,7 +28,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1d423c;
+  color: #1a454f;
 }
 a:focus {
   text-decoration: none;
@@ -47,7 +47,7 @@ p {
   print-color-adjust: inherit;
 }
 .sidebar-wrapper {
-  background: #4CAC9D;
+  background: #072f5c;
   position: absolute;
   right: 0;
   width: 240px;
@@ -122,13 +122,14 @@ img {
 }
 .sidebar-wrapper .education-container .meta {
   color: rgba(255, 255, 255, 0.619);
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 0px;
   margin-top: 0;
 }
 .sidebar-wrapper .education-container .time {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
+  font-size: 14px;
   margin-bottom: 0px;
 }
 .sidebar-wrapper .languages-container .lang-desc {
@@ -161,7 +162,7 @@ img {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #35776d;
+  color: #072f5c;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -180,7 +181,7 @@ img {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #35776d;
+  background: #072f5c;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -191,12 +192,14 @@ img {
   margin-bottom:15px;
 }
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  border-bottom: #97AAC3 solid 1px;
 }
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
   margin-bottom: 2px;
+  padding-bottom: 10px;
 }
 .main-wrapper .job-title {
   color: #3F4650;
@@ -227,19 +230,20 @@ img {
   font-weight: 500;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .main-wrapper .projects-section .item {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 .skillset .level-bar {
   height: 12px;
